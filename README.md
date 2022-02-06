@@ -1,6 +1,19 @@
 # golang-aws-serverless-api
 🧙‍♂️ Aplicação serverless desenvolvida com GO
 
+## Comandos
+```sh
+go mod tidy
+
+# ./cmd
+go build main.go
+
+zip -jrm build/main.zip build/main
+
+# powershell Compress-Archive D:\Build\FolderName D:\Build\FolderName.zip
+powershell Compress-Archive C:\Users\Diogo\Documents\GitHub\golang-aws-serverless-api\build\main.exe C:\Users\Diogo\Documents\GitHub\golang-aws-serverless-api\build\main.zip
+```
+
 ## Metodologia Git
 Implementação de commits semânticos e atômicos.
 
